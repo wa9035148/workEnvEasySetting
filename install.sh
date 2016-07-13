@@ -6,8 +6,7 @@ install_dir=pwd
 
 git submodule update --init --recursive
 
-cd ./vim/bundle/YouCompleteMe
-$(./install.py)
+./vim/bundle/YouCompleteMe/.install.py
 
 cd $HOME
 
