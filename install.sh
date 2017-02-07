@@ -13,3 +13,6 @@ cd $HOME
 ln -sf $install_dir/vim .vim
 ln -sf $install_dir/vimrc .vimrc
 ln -sf $install_dir/tmux-conf/tmux.conf .tmux.conf
+ln -sf $install_dir/elisp elisp
+
+
